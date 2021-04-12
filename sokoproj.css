@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: whitesmoke;
+    margin-bottom: 120px;
+}
+
+head {
+    width: 100%;
+
+}
+
+nav {
+    background-color: #2930fd;
+    height: 50px;
+        
+}
+
+#nav-text {
+    padding: 10px;
+    margin-left: 100px;
+}
+
+
+nav h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.sub-head-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: white;
+    height: fit-content;
+
+}
+
+.sub-head-menu ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center
+    
+}
+
+
+.sub-head-menu ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    align-self: center;
+    justify-self: center;
+    color: rgb(176, 160, 138);
+    margin-top: 5px;
+    
+    
+}
+
+.sub-head {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.sub-head h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: monospace;
+    line-height: 40px;
+}
+
+.sub-head p{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.search-input {
+    text-align: center;
+    width: 100vw;
+    
+}
+
+#search-butt {
+    padding: 5px;
+    border-radius: 6px;
+    margin-left: 0;
+    background-color:#aaaaaa;
+    outline: none;
+    border: transparent;
+}
+
+#search-butt i {
+    color: honeydew;
+}
+
+#search-butt:hover {
+    background-color: azure;
+    padding: 6px;
+}
+
+#search-butt:hover i{
+    color: silver;
+    font-size: larger;
+}
+
+#sub-menu:lin {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-head-menu ul li {
+    justify-items: center;
+    align-items: center;
+    margin: 14px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+#sub-menu i {
+    color: dodgerblue;
+}
+
+#font-icons {
+    color: yellow;
+}
+
+#input-field {
+    width: 80vw;
+    padding: 8px;
+    background-color: #aaaaaa;
+    font-style: italic;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    color:rgb(28, 27, 26);
+
+}
+
+#input-field:focus {
+    background-color: royalblue;
+    color: whitesmoke;
+}
+
+.head-body {
+    width: 60vw;
+    margin-right: 20%;
+}
+
+/* this section styles the main body contents of images and categories, where section one starts*/
+
+.section-one {
+    margin: 50px auto auto auto;
+    
+}
+
+.section-one .seg-head h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    
+    
+}
+
+.segment {
+    width: 30%;
+    height: 100%;
+    
+    
+    
+}
+
+.image-one {
+    background-image: url('images/natorio.jpg');
+    
+    
+}
+
+.image-two {
+    background-image: url('images/raptors.jpeg');
+    
+    
+}
+
+.image-three {
+    background-image: url('images/cleverland.jpg');
+    
+    
+}
+
+#image-seg {
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 150px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+
+#image-seg h3 {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+
+/* this code secton, describes the  second section of the main body*/
+
+.section-two {
+    margin-top: 50px;
+}
+
+
+.main-body-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    margin: 20px 10px;
+    margin: 0 auto;
+}
+
+
+.segment-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 5px 5px;
+
+}
+
+
+#item-image {
+    width: 20%;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.item-des{
+    width: 50%;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    align-self: stretch;
+    justify-self: center;
+}
+
+#add-button{
+    width: 20%;
+    height: 40px;
+    bottom: 0;
+    padding: 5px;
+    border: 1px solid  blue;
+    color: blue;
+}
+
+.seg-head {
+    margin-left: 25px;
+}
+
+.section-two .seg-head h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+/* the designs for the footer is to be followed from here*/
+
+.footer-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.sub-foot-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2105ff;
+    width: 100%;
+}
+
+.item-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2fr;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.item-one p {
+    color: wheat;
+    text-transform: capitalize;
+
+}
+
+
+/* media query influence for desktop version*/
+
+@media screen and (min-width: 800) {
+    body{
+        width: 80vw;
+
+
+    }
+    
+}
+
+
+
+
