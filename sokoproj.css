@@ -117,7 +117,7 @@ nav h2 {
     font-size: larger;
 }
 
-#sub-menu:lin {
+#sub-menu {
     display: flex;
     flex-direction: column;
 }
